@@ -8,5 +8,9 @@ public class chess {
         JFrame newframe = new JFrame("first");
         newframe.setSize(640,480);
         newframe.setVisible(true);
+        newframe.setLayout(null);
+        JButton start = new JButton("start");
+        start.setBounds(500,200,120,50);
+        newframe.add(start);
     }
 }
